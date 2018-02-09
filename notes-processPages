@@ -1,0 +1,196 @@
+Notes for process pages
+change global css for page title to a gray 
+.ms-core-pageTitle {
+color: #565660;
+}
+
+.ms-psum-headline {
+margin-top: 50
+
+
+.ms-psum-countdown {
+width: 140px;
+
+.ms-psum-add-edit-buttons {
+top: -30px;
+
+contacts page-------
+.ms-gb {
+font-family: "Open Sans", sans-serif;
+font-size: 24px;
+padding-bottom: 7px;
+}
+
+#tbod241-1 {
+font-family: "Open Sans", sans-serif;
+font-size 18px;
+
+
+#DeltaPlaceHolderMain {
+background-color: #4797dd;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.article {
+width: 80%;
+margin: auto;
+background-color: #fff;
+border: 1px solid #111
+border-radius: 7px;
+
+#scriptWPQ2 {
+background-color: #00549D;
+width: 80%;
+}
+
+table.ms-listviewtable {
+margin: 50px auto;
+width: 80%;
+background-color: #fff;
+border-radius: 5px;
+border: 1px solid black;
+padding: 5px 20px;
+}
+
+#siteNav {
+width: 97%;
+margin-top: -10px;
+margin-bottom: 10px;
+}
+
+.ms-vb-user {
+width: 10%
+}
+
+.ms-vb2 {
+width: 15%
+}
+
+.ms-vb-lastCell {
+width: 25%;
+}
+
+course search
+
+ack13616
+
+Notes
+contacts page for sites and update
+create procedures page like collection and enforcement
+
+
+Notes
+create mockup of GTA dashboards
+remove compliance from title campaigns and lead determination
+update goals on all html with Grace Reeves updates
+
+pol proc css
+.ms-rtestate-read {
+width: 900px;
+margin: auto;
+}
+
+.ms-viewheadertr {
+font-family: sans-serif;
+font-size: 23px;
+background-color: #00549d;
+}
+
+.ms-vh2-nofilter, .ms-vh2-nofilter-notextalign, .ms-vh2-nofilter-perm, .ms-vh a, .ms-vh2, .ms-vh2 a{
+color: #fff;
+}
+
+#onetidDoclibViewTbl0
+
+#0549DD
+#D0DFED
+#E7EFF6
+
+#onetidDoclibViewTbl0 td {
+padding: 5px;
+font-family: sans-serif;
+font-size: 18px;
+}
+
+#onetidDoclibViewTbl0 td 
+
+
+title for contacts
+#WebPartWPQ2_ChromeTitle {
+background-color: #00549d;
+margin-bottom: 0px;
+padding-top: 10px;
+font-family: Roboto;
+font-size: 24px;
+}
+
+ms-webpart-titleText {
+text-align: center !important;
+}
+
+
+mock up camera on photo and include link to submit a form
+and another with name and location outside
+
+build compliance determination page
+look in project folder under navigation 2nd level then 3rd level
+
+
+contacts for ci css
+#MSOZoneCell_WebPartWPQ3 {
+width: 65%;
+/*background-color: #c5d5ea;*/
+background-color: #e4ebf5;
+box-shadow: 10px 10px 5px #46556e;
+}
+
+.ms-cellstyle {
+padding: 5px 50px 15px 25px;
+font-size: 18px;
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+}
+
+.ms-vh-div {
+font-size: 20px;
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+padding-left: 20px;
+padding-bottom: 10px;
+letter-spacing: 1px;
+/*color: #011638 !important;*/
+color: #363b40 !important;
+}
+
+.ms-vh {
+border: 1px solid #363b40;
+}
+
+.ms-vh2-nofilter {
+border: 1px solid #363b40;
+}
+
+.ms-vh2-nofilter, .ms-vh2-nofilter-notextalign, .ms-vh2-nofilter-perm, .ms-vh a, .ms-vh2, .ms-vh2 a {
+color: #363b40 !important;
+}
+
+.ms-subtleLink {
+color: #363b40 !important;
+}
+
+.ms-itmHoverEnabled:hover > * {
+background-color: #cfdced;
+border: 1px solid #363b40;
+}
+
+
+add ext field to phone number 
+tie up links for compliance determination
+
+
+
+change section padding to 60
+remove titles
+
+send link to grace and bobbie to CD

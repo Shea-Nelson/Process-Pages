@@ -1,0 +1,183 @@
+a {
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.9) 1%, rgba(0, 0, 0, 0.9) 99%, rgba(0, 0, 0, 0.1)), url('../sites/gta/SiteAssets/code/pageTemplates/Tableau/dashboard/assets/backgroundGraph3.jpg');
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.9) 1%, rgba(0, 0, 0, 0.9) 99%, rgba(0, 0, 0, 0.1)), url('../sites/gta/SiteAssets/code/pageTemplates/Tableau/dashboard/assets/backgroundGraph3.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.87) 1%, rgba(0, 0, 0, 0.87) 99%, rgba(0, 0, 0, 0.4)), url('https://dorsp13.fdor.dor.state.fl.us/sites/gta/SiteAssets/code/pageTemplates/Tableau/dashboard/assets/backgroundGraph3.jpg');
+    padding: 50px;
+    height: calc(100vh - 350px);
+}
+
+.container-area {
+    margin: 10px;
+}
+
+.areaLink a{
+    display: block;
+    width: 250px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.container-area,
+.area,
+.areaLink {
+    display: flex;
+    align-items: center;
+}
+
+
+.amBox {
+   /* background: linear-gradient(135deg, #9abedd 0%,#00549d 55%,#9abedd 100%); */
+    background: linear-gradient(135deg, #00549d 0%,#004b9b 15%,#00549d 30%,#00549d 30%,#004b9b 45%,#00549d 60%,#004b9b 75%,#004b9b 93%,#00549d 100%,#00549d 100%); 
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.area {
+   /* background: linear-gradient(135deg, #9abedd 0%,#00549d 55%,#9abedd 100%); */
+    background: linear-gradient(135deg, #00549d 0%,#004b9b 15%,#00549d 30%,#00549d 30%,#004b9b 45%,#00549d 60%,#004b9b 75%,#004b9b 93%,#00549d 100%,#00549d 100%); 
+    padding: 10px;
+    border-radius: 7px;
+    width: 341px;
+    height: 55px;
+    transition: .4s;
+}
+
+.area:hover {
+   /* background: linear-gradient(135deg, #9abedd 0%,#00549d 55%,#9abedd 100%); */
+    background: linear-gradient(135deg, #00a9df 0%,#009fef 15%,#00a9df 30%,#00a9df 30%,#009fef 45%,#00a9df 60%,#009fef 75%,#009fef 93%,#00a9df 100%,#00a9df 100%); 
+}
+
+.area image {
+    height: 40px;
+    width: 100px;
+}
+
+#group1,
+#group2,
+#group3 {
+    height: 450px;
+}
+
+.rmBox image {
+    height: 25px;
+}
+
+.rrBox image {
+    height: 30px;
+}
+
+.btBox image {
+    height: 40px;
+}
+
+.taBox image {
+    height: 40px;
+}
+
+.fdBox image {
+    height: 40px;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 270px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 900px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+  padding: 10px 20px 0px 20px;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 125px;
+}
+
+.linkReport {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(135deg, #00549d 0%,#004b9b 15%,#00549d 30%,#00549d 30%,#004b9b 45%,#00549d 60%,#004b9b 75%,#004b9b 93%,#00549d 100%,#00549d 100%); 
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 20px 7px 0px;
+}
+
+.linkReport:hover {
+   background: linear-gradient(135deg, #00a9df 0%,#009fef 15%,#00a9df 30%,#00a9df 30%,#009fef 45%,#00a9df 60%,#009fef 75%,#009fef 93%,#00a9df 100%,#00a9df 100%); 
+}
+
+.linkReport img {
+    height: 65px;
+}
+
+.reportTitle {
+    display: inline-block;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 250px;
+}
+
+.reportsContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,326 @@
+/*********** Fonts ***********/
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Muli'), url(/sites/gta/Style%20Library/fonts/roboto/Roboto-Thin.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(/sites/gta/Style%20Library/fonts/roboto/Roboto-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(/sites/gta/Style%20Library/fonts/roboto/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(/sites/gta/Style%20Library/fonts/roboto/Roboto-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(/sites/gta/Style%20Library/fonts/roboto/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(/sites/gta/Style%20Library/fonts/roboto/Roboto-Black.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('RobotoSlab Light'), local('RobotoSlab-Light'), url(/sites/gta/Style%20Library/fonts/robotoSlab/RobotoSlab-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 500;
+  src: local('RobotoSlab'), local('RobotoSlab-Regular'), url(/sites/gta/Style%20Library/fonts/robotoSlab/RobotoSlab-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local('RobotoSlab Thin'), local('RobotoSlab-Thin'), url(/sites/gta/Style%20Library/fonts/robotoSlab/RobotoSlab-Thin.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local('RobotoSlab Bold'), local('RobotoSlab-Bold'), url(/sites/gta/Style%20Library/fonts/robotoSlab/RobotoSlab-Bold.ttf) format('truetype');
+}
+/*********** Hide QL ***********/
+#sideNavBox {
+  display: none !important;
+}
+
+#contentBox {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+#s4-bodyContainer {
+  padding-bottom: 0px;
+}
+
+.article {
+  padding: 0px !important;
+}
+
+/************ Hide navigation-bar ***********/
+.navigation-bar {
+  display: none;
+}
+
+/************ SP Page Title ***********/
+.ms-core-pageTitle {
+  color: #00549D;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+#contentRow {
+  padding-top: 0px;
+}
+
+#s4-titlerow {
+  padding-top: 11px;
+  padding-bottom: 0px;
+}
+
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-item:hover,
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-selected.ms-core-listMenu-item:hover,
+a.ms-tv-item:hover,
+a.ms-tv-header:hover {
+  color: #3898ec;
+}
+
+.ms-core-listMenu-item,
+.ms-core-listMenu-item:link,
+.ms-core-listMenu-item:visited,
+.ms-tv-item:link,
+.ms-tv-item:visited,
+.ms-tv-header:link,
+.ms-tv-header:visited {
+  color: #676770;
+}
+
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:link,
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:visited,
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected,
+.ms-tv-selected:link {
+  color: #00549D;
+}
+
+body {
+  background-color: #edeff2;
+  font-family: 'Open Sans', sans-serif;
+  color: #6a859c;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100vw;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 12px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #676770;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #676770;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #676770;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+h6 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.hero-heading {
+  margin-top: 80px;
+  line-space: 1.4;
+  color: #fff !important;
+  font-size: 60px;
+  letter-spacing: 24px;
+  text-transform: uppercase;
+  animation: shrinkSpace 1.5s ease-out 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shrinkSpace {
+    0% {
+        letter-spacing: 24px;
+}
+    65% {
+        letter-spacing: 10px;
+    }
+    90% {
+        letter-spacing: 11.25px;
+    }
+    100% {
+        letter-spacing: 11px;
+    }
+}
+
+
+#siteNav {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.site-nav {
+    display: block;
+    line-height: 22px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #fafafa;
+    background-color: rgba(25,25,25,.85);
+    padding: 5px;
+}
+
+.site-nav > ul {
+    padding: 0 30px;
+    width: auto;
+    margin: auto;
+    text-decoration: none;
+    /*background-color: #333;*/
+    list-style: none;
+    list-style-image: none;
+    text-align: center;
+    z-index: 100;
+}
+
+.site-nav a {
+    display: flex;
+    color: #fafafa;
+    margin: 0px 15px;
+    font-size: 14px;
+    padding: 5px;
+    border-color: #fafafa;
+}
+
+.site-nav a:hover,
+#subProcess:hover {
+
+    color: #4797dd;
+    border-color: #4797dd;
+    fill: #4797dd;
+}
+
+.site-nav li {
+   /* background-color: #333;*/
+}
+
+.arrow-down {
+  margin-top: 7px;
+  margin-left: 3px;
+  width: 0; 
+  height: 2px; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid;
+}
+
+.nav-title {
+  font-family: "Open Sans",sans-serif;
+  font-size: 22px;
+  margin-bottom: 5px;
+  letter-spacing: 0.4px;
+  color: #fafafa;
+  /*background-color: #333;*/
+}
+
+#DeltaPlaceHolderPageTitleInTitleArea{
+ color: #7e7e7e;
+ font-weight: 100;
+ font-family: roboto;
+}
+
+.menu-item-text {
+  font-family: roboto;
+  font-weight: 100;
+}
+
+#imgSubProcess,
+.site-nav svg {
+  height: 25px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+
+ul,
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

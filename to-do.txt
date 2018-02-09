@@ -1,0 +1,43 @@
+update all purpose and goals to new language *done
+create account management pages with content they provided *done
+need to update pages based off reorg - see email from Bobbie Cone "Recent Changes with GTA"
+update look of forms for photo submission *authorization form updated
+photo submission workflow create link in email to release form
+
+
+From: Nancy
+These comments are for Criminal Investigations.
+ 
+·         Under Procedures and Job Aids – Can you have the items listed in alphabetical order?  **Completed
+·         The TCEDP Key Contacts were supposed to be listed under Resources. **Completed
+ 
+For Campaigns:
+·         The Sales & Use Tax projects listed on the main Campaigns page were supposed to be listed under Resources  **havent started campaigns
+·         Campaigns has a team site that needs to be added **havent started campaigns
+
+
+From Grace:
+One thing I just noticed that needs to be corrected.  The purpose statement for Compliance Determination is the old version. Please replace with this version:
+Compliance Determination identifies areas of non-compliance in tax reporting and payment, establishes corrective actions, 
+and promotes voluntary compliance by all taxpayers. The four sub-processes are:  Audit, Campaigns, Criminal Investigation and Lead Development.
+**Updated all purpose statements for 1st level pages
+
+remove unused link header
+
+executive briefing reports
+
+management/planning and performance measures for account management
+
+fixed team sites link for account management
+
+
+
+
+compliance determination link to contacts
+
+procedure and job aids hide
+
+campaigns sales & use tax projects build new page
+
+
+campaigns contacts on bottom of old page use tax audit supervisor but add in SUT for sut projects

@@ -1,0 +1,262 @@
+.serviceList {
+display:flex;
+flex-wrap: wrap;
+margin:auto;
+margin-top: 50px;
+padding-left: 50px;
+padding-right: 50px;
+width: 1650px;
+}
+
+.containerStar {
+  display: none;
+  margin: auto;
+  margin-top: -4px;
+}
+
+.imgStar {
+  background-size: 100% 100%;
+  background-image: url("../Assets/star.png");
+  height: 40px;
+  width: 40px;
+  margin: 0px 5px; 
+}
+
+.bannerService {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #7387bf;
+  text-align: center;
+  border-radius: 5px;
+  height: 45px;
+  padding-top: 15px;
+  border: 1px solid #4797dd;
+  border-bottom-width: 8px;
+  margin: 25px 0px;
+}
+
+.bannerService h3 {
+  color: white;
+  font-size: 20px;
+}
+
+.serviceContainer {
+display: flex;
+background-color: #4797DD;
+margin: 8px 20px;
+height: 120px;
+width: 500px;
+border-radius: 90px;
+border: 3px solid #346EA1;
+border-top-width: 2px;
+border-bottom-width:3px;
+border-left-width: 0px;
+-webkit-transition: .4s;
+-moz-transition: .4s;
+transition: .4s;
+}
+
+.serviceContainer:hover {
+background-color: #7387bf;
+border: 3px solid #4b5b87;
+border-top-width: 2px;
+border-bottom-width:3px;
+border-left-width: 0px;
+}
+
+.serviceImage {
+width: 175px;
+height: 125px;
+border-radius: 90px;
+margin-top: -2px;
+}
+
+.serviceInfo {
+  padding-left: 5px;
+}
+
+.serviceInfo p {
+color: white;
+margin: 0px;
+margin-left: 15px;
+line-height: 1.3;
+font-size: 16px;
+}
+
+.serviceInfo h3 {
+color: white;
+font-size: 22px;
+margin: 10px 15px 0px;
+}
+
+.serviceAL {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/AlachuaWeb.jpg");
+}
+
+.serviceCS {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/CoralSpringsWeb.jpg");
+}
+
+.serviceDB {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/DaytonaWeb.jpg");
+}
+
+.serviceFM {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/FtMyersWeb.jpg");
+}
+
+.serviceFP {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/ftPierceWeb.jpg");
+}
+
+.serviceHD {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/stPeteWeb.jpg");
+}
+
+.serviceJX {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/JaxWeb.jpg");
+}
+
+.serviceLC {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/lakeCityWeb.jpg");
+}
+
+.serviceLL {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/lakelandWeb.jpg");
+}
+
+.serviceLG {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/clearwaterBeachWeb.jpg");
+}
+
+.serviceLB {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/leesburgWeb.jpg");
+}
+
+.serviceMN {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/mariannaWeb.jpg");
+}
+
+.serviceMB {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/melbourneWeb.jpg");
+}
+
+.serviceMM {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/miamiWeb.jpg");
+}
+
+.serviceNP {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/naplesWeb.jpg");
+}
+
+.serviceOL {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/orlandoWeb.jpg");
+}
+
+.servicePC {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/panamaCityWeb.jpg");
+}
+
+.servicePN {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/pensacolaWeb.jpg");
+}
+
+.serviceSS {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/sarasotaWeb.jpg");
+}
+
+.serviceTS {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/tallahasseeWeb.jpg");
+}
+
+.serviceTP {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/tampaWeb.jpg");
+}
+
+.serviceWP {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/westPalmBeachWeb.jpg");
+}
+
+.serviceAT {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/atlantaWeb.jpg");
+}
+
+.serviceCH {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/chicagoWeb.jpg");
+}
+
+.serviceDL {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/dallasWeb.jpg");
+}
+
+.serviceHS {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/houstonWeb.jpg");
+}
+
+.serviceLA {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/laWeb.jpg");
+}
+
+.serviceNY {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/newYorkWeb.jpg");
+}
+
+.servicePT {
+  background-size: 100% 100%;
+  background-image: url("../Assets/serviceCenters/pittsburghWeb.jpg");
+}
+
+@media (max-width: 1710px) {
+  .serviceList {
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 1250px;
+    justify-content: center;
+    }
+}
+
+@media (max-width: 1210px) {
+  .serviceList {
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 650px;
+    justify-content: center;
+    }
+}

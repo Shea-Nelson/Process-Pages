@@ -1,0 +1,87 @@
+<style>
+.phonelist {
+position: relative;
+width: 85%;
+margin: auto;
+background-color: #e4ebf5;
+box-shadow: 1px 1px 10px #46556e;
+}
+
+.ms-cellstyle {
+padding: 7px;
+min-width: 125px;
+font-size: 18px;
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+border: 1px solid #848c97;
+}
+
+.ms-listviewtable {
+width: 100%;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.ms-vh-div {
+font-size: 20px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+padding-left: 5px;
+padding-bottom: 5px;
+letter-spacing: 1px;
+color: #363b40 !important;
+}
+
+.ms-vh,
+.ms-vh2 {
+border: 1px solid #848c97;
+}
+
+.ms-vh2-nofilter {
+border: 1px solid #848c97;
+}
+
+.ms-vh2-nofilter, .ms-vh2-nofilter-notextalign, .ms-vh2-nofilter-perm, .ms-vh a, .ms-vh2, .ms-vh2 a {
+color: #363b40 !important;
+}
+
+.ms-subtleLink,
+.ms-rtestate-field,
+.ms-vb, 
+.ms-vb2, 
+.ms-vb-user, 
+.ms-vb-tall, 
+.ms-pb, 
+.ms-pb-selected {
+color: #363b40 !important;
+}
+
+.ms-itmHoverEnabled:hover > * {
+background-color: #cfdced;
+border: 1px solid #848c97;
+}
+
+.ms-vh,
+.ms-vh2,
+.ms-vh2-nofilter {
+background: #cccccc;
+}
+.ms-cellstyle {
+background: #ffffff;
+}
+.ms-listview {
+margin: 20px;
+}
+.ms-listviewtable {
+padding-bottom: 0px;
+}
+ms-webpartzone-cell {
+margin: 0px !important;
+}
+.phonelist{
+margin-top: 50px;
+padding: 10px 30px;
+background: linear-gradient(135deg, #e4ebf5 0%,#e4e7f1 69%,#e4ebf5 100%);
+}
+
+</style>
