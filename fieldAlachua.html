@@ -20,7 +20,7 @@
 </head>
 <body>
   <div class="centered hero-section w-section">
-    <div class="processName processAlachua" id="hero-container" data-ix="new-interaction">
+    <div class="processName processAlachua" id="hero-container" data-ix="new-interaction" style="background-image: url(https://dorsp13.fdor.dor.state.fl.us/sites/gta/SiteAssets/code/pageTemplates/processPages/assets/serviceCenters/alachuaWeb2.jpg);">
       <h1 class="hero-heading" data-ix="fade-in-bottom-page-loads">Alachua</h1>
       
                   <div class="camera-container">
@@ -109,43 +109,83 @@
       </nav>
     </div>
         
-    
-    <section class="processOverview">
+        <section class="processOverview">
         <div class="overviewContainer purpose">
         <div class="sectionTitle">
-          <h2>Purpose</h2>
+          <h2>Service Center Information</h2>
         </div>
       <div class="overviewDesciption-container container">
         <div class="description-container">
           <div class="overviewDescription">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+              <div class="address">
+                <p>Alachua Service Center Address:</p>
+                <p>Ste 100<br/>
+                  14107 NW US Hwy 441<br/>
+                  Alachua, Fl 32615-6390<br/>
+                </p>
+              </div>
+              <div class="counties">
+                <p>Counties Served:</p>
+                <ul>
+                    <a target="_blank" 
+                    href="https://www.google.com/maps/place/Alachua,+FL/@29.77922,-82.5034474,15954m/data=!3m2!1e3!4b1!4m5!3m4!1s0x88e8b0b45a80fe11:0xc7daa1cd9f5dd170!8m2!3d29.7938144!4d-82.4944226">
+                    <li>Alachua</li>
+                    </a>
+                    <a target="_blank"
+                    href="https://www.google.com/maps/place/Gilchrist+County,+FL/@29.7493003,-82.9547421,63836m/data=!3m2!1e3!4b1!4m5!3m4!1s0x88e92021b6166bef:0x87c09cbf38c48fd7!8m2!3d29.6871128!4d-82.820974">
+                    <li>Gilchrist</li>
+                    </a>
+                    <a target="_blank"
+                    href="https://www.google.com/maps/place/Levy+County,+FL/@29.2532291,-83.1016937,128299m/data=!3m2!1e3!4b1!4m5!3m4!1s0x88e8f6b0053cddef:0x50047aa250eb2916!8m2!3d29.3178545!4d-82.820974">
+                    <li>Levy</li>
+                    </a>
+                    <a target="_blank"
+                    href="https://www.google.com/maps/place/Marion+County,+FL/@29.2410352,-82.3676417,128315m/data=!3m2!1e3!4b1!4m5!3m4!1s0x88e7d05545950669:0xd2a0b0c4ce791b0a!8m2!3d29.2787765!4d-82.12784">
+                    <li>Marion</li>
+                    </a>
+                    <a target="_blank"
+                    href="https://www.google.com/maps/place/Putnam+County,+FL/@29.582533,-81.8849362,63942m/data=!3m2!1e3!4b1!4m5!3m4!1s0x88e612926c53977b:0xd4c18513996a868e!8m2!3d29.6265157!4d-81.7787021">
+                    <li>Putnam</li>
+                    </a>
+                  </ul>
+              </div>  
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+    <div class="overviewContainer goals">
+        <div class="sectionTitle">
+          <!--<h2>Counties Served</h2>-->
+        </div>
+      <div class="overviewDesciption-container container">
+        <div class="description-container">
+          <div class="overviewDescription">
+            <a target="_blank" 
+            href="https://www.google.com/maps/place/14107+NW+US+Hwy+441,+High+Springs,+FL+32643/@29.8209453,-82.584938,996m/data=!3m1!1e3!4m5!3m4!1s0x88e8c9c82daa3e09:0x56f0967d963710b3!8m2!3d29.8209407!4d-82.5827493">  
+              <img src="/sites/gta/offices/SC/alachua/Documents/Alachua.PNG" style="width:800px;"></img>
+            </a>
           </div>
         </div>
       </div>
       </div>
       
-      <div class="overviewContainer goals">
-      <div class="sectionTitle">
-        <h2>Counties Served</h2>
-      </div>
-    <div class="overviewDesciption-container container">
-      <div class="description-container">
-        <div class="overviewDescription">
-          <ul>
-            <li>Alachua</li>
-            <li>Gilchrist</li>
-            <li>Levy</li>
-            <li>Marion</li>
-            <li>Putnam</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    </div>
     </section>
     
 
   </section>
 </body>
 </html>
+
+<style>
+  .overviewDescription{
+    padding-right: 40px;
+    justify-content: space-around;
+    flex-wrap: flex;
+  }
+  .overviewDescription a {
+    display: block;
+  }
+
+</style>
