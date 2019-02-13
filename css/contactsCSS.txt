@@ -1,4 +1,8 @@
 <style>
+#sideNavBox {
+    display: none;
+}
+
 .phonelist {
 position: relative;
 width: 85%;
